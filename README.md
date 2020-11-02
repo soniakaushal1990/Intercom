@@ -28,12 +28,11 @@ Run all the test cases written in tests folder
 
 
 
-### Tech Used
-
+### Tech and Packages Used
 I have used NodeJs as a programming language for this project. 
 
-Joi Validater for validation the input
-SuperAgent to get the list of customers from a remote url
-Jest to write tests
+ # SuperAgent to get the list of customers from a remote url
+ # Joi Validater for validating the input text file
+ # Jest to write tests
 
 
