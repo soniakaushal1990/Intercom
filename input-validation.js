@@ -1,7 +1,10 @@
 const Joi = require('joi');
 
 
-
+/**
+ * Funtion to validate each customer inside the customer list
+ * @param {Object[]} customerList 
+ */
 const customerListValidation = function (customerList) {
     let customerSchema = Joi.object({
         user_id: Joi.number().required(),
