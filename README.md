@@ -15,7 +15,7 @@ $ cd /path/to/the/folder
 Navigate to the directory 
 
 $ npm install
-Installs all the package required to run the application
+Installs all the packages required to run the application
 
 $ npm run start
 
@@ -24,5 +24,16 @@ Runs the application and saves the output to output.txt file
 $ npm run test
 
 Run all the test cases written in tests folder 
-Npm package Jest is used to write test cases
+
+
+
+
+### Tech Used
+
+I have used NodeJs as a programming language for this project. 
+
+Joi Validater for validation the input
+SuperAgent to get the list of customers from a remote url
+Jest to write tests
+
 
