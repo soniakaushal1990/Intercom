@@ -2,7 +2,6 @@ const superagent = require('superagent');
 const IntercomFoodEvent = require('./foodevent');
 const {customerListValidation} = require('./input-validation');
 const TEXT_FILE_URL = 'https://s3.amazonaws.com/intercom-take-home-test/customers.txt';
-const Customer = require('./customer');
 const {txttoJSON,JSONtotxt,writeoutputToFile} = require('./file');
 
 
@@ -34,6 +33,8 @@ const {txttoJSON,JSONtotxt,writeoutputToFile} = require('./file');
 
               /** Save output to output.txt file */
               writeoutputToFile(output);
+
+              console.log("Successfully saved the output to output.txt file");
              
 
 
