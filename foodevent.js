@@ -1,5 +1,4 @@
 const getDistance = require('./distance').getDistance;
-const Customer = require('./customer');
 /**
  * Creates a new Intercom Food and Drink Event
  * 
@@ -18,7 +17,13 @@ function IntercomFoodEvent() {
 
 
 /**
- * Function to filter customers
+ * Funtion to filter customers within a given distance
+ * @param {Object[]} customerList 
+ * @param {number}  customerList[].user_id Customer id
+ * @param {string}  customerList[].name name of the customer
+ * @param {number}  customerList[].latitude latitude of the customer
+ * @param {number}  customerList[].longitude longitude of the customer
+ * @returns {Object[]} Array of Objects 
  */
 IntercomFoodEvent.prototype.filterCustomersWithinEventRange = function (customersList) {
     try {

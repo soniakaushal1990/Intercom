@@ -4,6 +4,11 @@ const Joi = require('joi');
 /**
  * Funtion to validate each customer inside the customer list
  * @param {Object[]} customerList 
+ * @param {number}  customerList[].user_id User Id of the customer
+ * @param {string}  customerList[].name name of the customer
+ * @param {number}  customerList[].latitude latitude of the customer
+ * @param {number}  customerList[].longitude longitude of the customer
+ * @returns {void}
  */
 const customerListValidation = function (customerList) {
     let customerSchema = Joi.object({
