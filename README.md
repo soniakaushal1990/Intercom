@@ -10,9 +10,9 @@ and user ids of matching customers (within 100km), sorted by User ID (ascending)
 ## Tech and Packages Used
 I have used NodeJs as a programming language for this project. 
 
- # SuperAgent to get the list of customers from a remote url
- # Joi Validater for validating the input text file
- # Jest to write tests
+  SuperAgent to get the list of customers from a remote url
+  Joi Validater for validating the input text file
+  Jest to write tests
 
 
 ### Installation
