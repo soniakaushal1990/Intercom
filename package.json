@@ -4,19 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/soniakaushal1990/Intercom.git"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/soniakaushal1990/Intercom/issues"
-  },
-  "homepage": "https://github.com/soniakaushal1990/Intercom#readme",
   "dependencies": {
+    "joi": "^17.3.0",
     "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1" 
   }
 }
