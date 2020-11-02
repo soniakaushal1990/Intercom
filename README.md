@@ -5,7 +5,18 @@ and drinks on us. Write a program that will read the full list of customers and 
 and user ids of matching customers (within 100km), sorted by User ID (ascending).
 
 
-## Installation
+
+
+## Tech and Packages Used
+I have used NodeJs as a programming language for this project. 
+
+ # SuperAgent to get the list of customers from a remote url
+ # Joi Validater for validating the input text file
+ # Jest to write tests
+
+
+### Installation
+
 ***
 
 ```
@@ -28,11 +39,6 @@ Run all the test cases written in tests folder
 
 
 
-### Tech and Packages Used
-I have used NodeJs as a programming language for this project. 
 
- # SuperAgent to get the list of customers from a remote url
- # Joi Validater for validating the input text file
- # Jest to write tests
 
 
